@@ -1,7 +1,7 @@
 html,body{
-    font-family: "Comic Neue" ,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Bonheur Royale', cursive;
     background-image: url("./back.jpg");
-    font-size: 22px;
+    font-size: 30px;
     text-align: center;
     margin:auto;
     line-height: 1.4em;
@@ -13,7 +13,12 @@ header nav{
     flex-wrap: wrap;
     justify-content: space-around;
 }
-
+button{
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    color:black;
+}
 p,h2,h1,h4,h3{
     background-color:blanchedalmond;
     opacity: 0.8;
