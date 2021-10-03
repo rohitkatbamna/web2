@@ -1,0 +1,13 @@
+html,body{
+    font-family: 'Bonheur Royale', cursive;
+    background-image: url("./back.jpg");
+    font-size: 30px;
+    text-align: center;
+    margin:auto;
+    line-height: 2em;
+}
+ol{
+    color: darkblue;
+    font-weight: bolder;
+    font-size: 50px;
+}
