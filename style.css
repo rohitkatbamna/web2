@@ -1,85 +1,9 @@
-html,body{
-    font-family: 'Bonheur Royale', cursive;
-    background-image: url("./back.jpg");
-    font-size: 30px;
-    text-align: center;
-    margin:auto;
-    line-height: 1.4em;
-}
-
-header nav{
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-button{
-    height: 50px;
-    width: 150px;
-    background-color: antiquewhite;
-    border-radius: 50px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: bold;
-    
-}
-p,h2,h1,h4,h3{
-    background-color:blanchedalmond;
-    opacity: 0.8;
-}
-.books{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.mem {
-    display:flex;
-    flex-wrap: wrap;
-    justify-content:space-between;
-    text-decoration: underline;
-    font-weight: bold;
-}
-.mem p{
-    width: 400px;
-}
-.loc{
-    display: flex;
-    justify-content: space-between;
-}
-.foot{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    
-}
-.foot h3{
-    text-align: left;
-}
-.loc h2{
-    width: 850px;
-    height: 100px;
-}
-/* Responsie web design starts here */
-@media only screen and  (max-width: 400px) {
-    html,body {
-        width: 300px;
-    }
-    body img{
-        width:100px;
-        height:100px;
-    }
-    .mem img{
-        display: none;
-    }
-    .mem p{
-        width: 300px;
-    }
-    .loc img{
-        display: none;
-    }
-    .loc h2{
-        height: 130px;
-    }
-
-
-
+html,
+body {
+	font-family: "Bonheur Royale", cursive;
+	background-image: url("./back.jpg");
+	font-size: 30px;
+	text-align: center;
+	margin: auto;
+	line-height: 1.4em;
 }
