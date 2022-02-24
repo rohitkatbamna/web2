@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
 body {
-	background-image: url("./back.jpg");
+	background-image: url("./backg.jpg");
 	text-align: center;
 	margin: auto;
 	line-height: 1.4em;
 	font-size: 30px;
+	color: brown;
 }
 nav {
 	background-color: beige;
@@ -21,4 +22,5 @@ nav {
 }
 .booksmainsec {
 	font-family: "Dancing Script", cursive;
+	color: brown;
 }
