@@ -28,3 +28,16 @@ footer h4 {
 	font-family: "Dancing Script", cursive;
 	font-size: 40px;
 }
+footer {
+	border: 3px solid black;
+}
+.addflexhere {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+@media screen and (max-width: 828px) {
+	.addflexhere {
+		flex-direction: column;
+	}
+}
