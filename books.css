@@ -28,6 +28,11 @@ footer {
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
+.list {
+	font-family: "Dancing Script", cursive;
+	text-align: center;
+	font-size: 45px;
+}
 @media screen and (max-width: 828px) {
 	.addflexhere {
 		flex-direction: column;
