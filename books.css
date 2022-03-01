@@ -34,6 +34,9 @@ footer {
 	font-size: 45px;
 	color: brown;
 }
+.booklist h1 {
+	font-family: "Dancing Script", cursive;
+}
 @media screen and (max-width: 828px) {
 	.addflexhere {
 		flex-direction: column;
