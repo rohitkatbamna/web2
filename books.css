@@ -44,8 +44,27 @@ footer {
 	grid-template-columns: repeat(5, 0.2fr);
 	justify-content: end;
 	align-items: end;
-	column-gap: 50px;
-	row-gap: 50px;
+	column-gap: 60px;
+	row-gap: 5px;
+}
+@media only screen and (max-width: 1260px) {
+	.addgridhere {
+		grid-template-rows: repeat(8, 1fr);
+		grid-template-columns: repeat(4, 0.2fr);
+		justify-content: start;
+	}
+}
+@media only screen and (max-width: 997px) {
+	.addgridhere {
+		grid-template-rows: repeat(9, 1fr);
+		grid-template-columns: repeat(3, 0.2fr);
+	}
+}
+@media only screen and (max-width: 746px) {
+	.addgridhere {
+		grid-template-rows: repeat(13, 1fr);
+		grid-template-columns: repeat(2, 0.2fr);
+	}
 }
 @media screen and (max-width: 828px) {
 	.addflexhere {
