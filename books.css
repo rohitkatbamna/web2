@@ -66,6 +66,12 @@ footer {
 		grid-template-columns: repeat(2, 0.2fr);
 	}
 }
+@media only screen and (max-width: 486px) {
+	.addgridhere {
+		grid-template-rows: auto;
+		grid-template-columns: auto;
+	}
+}
 @media screen and (max-width: 828px) {
 	.addflexhere {
 		flex-direction: column;
