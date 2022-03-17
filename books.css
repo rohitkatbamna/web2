@@ -40,12 +40,12 @@ footer {
 }
 .addgridhere {
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: repeat(6, 1fr);
+	grid-template-columns: repeat(5, 0.2fr);
 	justify-content: end;
 	align-items: end;
-	column-gap: 30px;
-	row-gap: 30px;
+	column-gap: 50px;
+	row-gap: 50px;
 }
 @media screen and (max-width: 828px) {
 	.addflexhere {
