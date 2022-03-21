@@ -17,12 +17,14 @@ nav {
 	font-family: "Dancing Script", cursive;
 	font-weight: bolder;
 }
+
 footer h4 {
 	font-family: "Dancing Script", cursive;
 	font-size: 40px;
 }
 footer {
-	border: 3px solid black;
+	border: 3px solid brown;
+	color: brown;
 }
 .addflexhere {
 	display: flex;
@@ -31,6 +33,7 @@ footer {
 }
 main {
 	font-family: "Dancing Script", cursive;
+	color: brown;
 }
 .list {
 	font-family: "Dancing Script", cursive;
