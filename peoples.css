@@ -29,3 +29,14 @@ footer {
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
+.peoples {
+	margin-left: 3vw;
+	margin-right: 3vw;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+}
+.people {
+	font-family: "Dancing Script", cursive;
+	font-weight: bold;
+}
