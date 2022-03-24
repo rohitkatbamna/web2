@@ -49,3 +49,12 @@ main {
 		flex-direction: column;
 	}
 }
+@media screen and (max-width: 374px) {
+	.addflexhere {
+		flex-direction: column;
+	}
+	.our_curator img {
+		height: auto;
+		width: 100%;
+	}
+}
