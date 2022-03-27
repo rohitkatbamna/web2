@@ -22,7 +22,8 @@ footer h4 {
 	font-size: 40px;
 }
 footer {
-	border: 3px solid black;
+	border: 3px solid brown;
+	color: brown;
 }
 .addflexhere {
 	display: flex;
@@ -46,6 +47,7 @@ footer {
 	align-items: end;
 	column-gap: 60px;
 	row-gap: 5px;
+	color: brown;
 }
 @media only screen and (max-width: 1260px) {
 	.addgridhere {
