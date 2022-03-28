@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
+
+body {
+	background-image: url("./assests/backg.jpg");
+	text-align: center;
+	margin: auto;
+	line-height: 1.4em;
+	font-size: 30px;
+	color: brown;
+}
+nav {
+	background-color: beige;
+	font-family: "Dancing Script", cursive;
+	opacity: 0.9;
+}
+.mainsogan {
+	font-family: "Dancing Script", cursive;
+	font-weight: bolder;
+}
+footer h4 {
+	font-family: "Dancing Script", cursive;
+	font-size: 40px;
+}
+footer {
+	border: 3px solid brown;
+	color: brown;
+}
+.addflexhere {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
