@@ -17,6 +17,10 @@ nav {
 	font-family: "Dancing Script", cursive;
 	font-weight: bolder;
 }
+.givemeflex {
+	display: flex;
+	flex-wrap: wrap;
+}
 footer h4 {
 	font-family: "Dancing Script", cursive;
 	font-size: 40px;
