@@ -20,6 +20,7 @@ nav {
 .givemeflex {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 footer h4 {
 	font-family: "Dancing Script", cursive;
