@@ -24,6 +24,11 @@ nav {
 	font-family: "Dancing Script", cursive;
 	color: brown;
 }
+.Topbutton {
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
+}
 footer h4 {
 	font-family: "Dancing Script", cursive;
 	font-size: 40px;
