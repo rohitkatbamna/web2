@@ -35,3 +35,16 @@ footer {
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
+.main_header {
+	font-family: "Dancing Script", cursive;
+	font-size: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.owner h3 {
+	font-family: "Dancing Script", cursive;
+	font-size: 40px;
+}
+main {
+	font-family: "Dancing Script", cursive;
+}
