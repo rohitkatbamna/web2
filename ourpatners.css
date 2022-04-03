@@ -56,6 +56,11 @@ main {
 	color: black;
 	font-size: 30px;
 }
+.add_grid_here {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: 1fr;
+}
 footer h4 {
 	font-family: "Dancing Script", cursive;
 	font-size: 40px;
