@@ -61,7 +61,7 @@ main {
 	display: grid;
 	margin: 0 auto 0 auto;
 	grid-template-columns: repeat(5, 1fr);
-	grid-template-rows: repeat(5, 1fr);
+
 	place-content: center center;
 	place-items: center center;
 	column-gap: 3vw;
