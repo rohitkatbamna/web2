@@ -61,7 +61,7 @@ main {
 	display: grid;
 	margin: 0 auto 0 auto;
 	grid-template-columns: repeat(5, 1fr);
-	grid-template-rows: repeat(3, 1fr);
+	grid-template-rows: repeat(4, 1fr);
 	column-gap: 20px;
 	row-gap: 20px;
 }
@@ -82,7 +82,7 @@ footer {
 	.add_grid_here {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
-		grid-template-rows: repeat(2, 1fr);
+		grid-template-rows: repeat(3, 1fr);
 	}
 	.addflexhere {
 		flex-direction: column;
