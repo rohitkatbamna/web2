@@ -77,8 +77,23 @@ footer {
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
+@media only screen and (max-width: 946px) {
+	main {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
 @media screen and (max-width: 828px) {
 	.addflexhere {
 		flex-direction: column;
+	}
+}
+@media only screen and (max-width: 658px) {
+	main {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+@media only screen and (max-width: 442px) {
+	main {
+		grid-template-columns: 1fr;
 	}
 }
